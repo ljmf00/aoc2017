@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
   for(int i = 0; i<ROW; i++)
   {
     unsigned int high = 0;
-    unsigned int low = INT_MAX;
+    unsigned int low = UINT_MAX;
     for(int k = 0; k<COL; k++)
     {
       if(table[i][k] > high)
